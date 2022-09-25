@@ -1,0 +1,26 @@
+{
+  "name": "cat_photo_album",
+  "version": "0.0.1",
+  "description": "고양이 사진첩",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinhalim/Toy_Project.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinhalim/Toy_Project/issues"
+  },
+  "homepage": "https://github.com/jinhalim/Toy_Project#readme",
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "parcel-bundler": "^1.12.5"
+  }
+}
