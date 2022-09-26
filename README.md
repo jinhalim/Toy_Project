@@ -12,5 +12,5 @@ npm i lodash -D
 
 [2022 웹디자인 트렌드](https://blog.naver.com/dartplus/222642158518, "google link")<br/>
 
-<img src=![20202020032508178120637718](https://user-images.githubusercontent.com/113829472/192194299-7c56fc0f-322b-48cc-abee-f36cbd822452.jpeg)alt="2022 트렌드 이미지" style="max-width: 100%;">
+![20202020032508178120637718](https://user-images.githubusercontent.com/113829472/192194299-7c56fc0f-322b-48cc-abee-f36cbd822452.jpeg)
 
