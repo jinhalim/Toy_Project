@@ -8,7 +8,6 @@ npm i lodash -D
 //일반 의존성 설치 (웹브라우저에서 동작시 필요한 모듈이란 의미)
 
 
-2022 웹디자인 트렌드
 
 [2022 웹디자인 트렌드](https://blog.naver.com/dartplus/222642158518, "google link")<br/>
 <그리드 디자인 예시>
