@@ -1,79 +1,43 @@
-<!DOCTYPE html>
-<html lang="kr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cat's library</title>
-    <link rel="stylesheet" href="./src/styles/main_style.css">
-</head>
-<body>
-    <header id="main_header">
-    <div id="head">
-        <div id = "footprint">
-         <!-- <img id = "main-icon" src="pngegg.png" alt="footprint" width="50"/> -->
+<html>
+  <head> //웹페이지의 상단
+    <title>고양이 사진첩!</title> //제목
+    <link rel="stylesheet" href="./src/styles/style.css">//외부 리소스와 연결 요소 + style.css파일과 하이퍼로 갈 수 있도록 함
+  </head>
+  <body> //웹페이지의 중앙
+    <h1>고양이 사진첩</h1>// 글자 크기 및 가로
+    <main class="App">// 웹페이지 구현의 메인 클래스
+      <nav class="Breadcrumb"> //네비게이션바 역할을 담당하는 클래스 요즘식
+        <div>root</div> //가로로 정렬하는 태그
+        <div>노란고양이</div>
+      </nav>
+      <div class="Nodes">
+        <div class="Node">
+          <img src="./assets/prev.png"> // img 파일을 불러옴
         </div>
-    
-    <img src="choice.png" alt="choice" width="100"/>
+        <div class="Node">
+          <img src="./assets/directory.png">
+          <div>2021/04</div>
+        </div>
+        <div class="Node">
+          <img src="./assets/file.png">
+          <div>하품하는 사진</div>
+        </div>
+      </div>
+    </main>
+    <!-- Loading Layer sample markup -->
+    <!--
+    <div class="Modal Loading">
+      <div class="content">
+        <img src="./assets/nyan-cat.gif">
+      </div>
     </div>
-    </header>
-    <section id="body">
-    
-    <div id="반려동물 앨범">
-        <ul>
-            <li>반려동물 앨범
-                <ul>우리의 소중한 순간
-                    <ul>
-                        <li>first cat img
-                            <br><img src="cat1.png" alt="cat1" width="100"/>
-                        </li>
-                        <li>second cat img
-                            <br><img src="cat2.png" alt="cat2" width="100"/></li>
-                    </ul>
-                </ul>
-            </li>
-        </ul>
+    -->
+    <!-- ImageViewer sample markup -->
+    <!--
+    <div class="Modal ImageViewer">
+      <div class="content">
+        <img src="./assets/sample_image.jpg">
     </div>
-    <div id="냥이실록">
-        <ul>
-            <li>냥이실록
-                <ul>주인님 관찰 기록지
-                    <ul>
-                        <li>first cat img
-                            <br><img src="cat3.png" alt="cat3" width="100"/>
-                            <br>우리 고양이는 안물어요
-                            <br>고양이와 인사하기
-                        </li>
-                    </ul>
-                </ul>
-            </li>
-        </ul>
-    </div>
-    <div id="전문가들의 꿀팀">
-        <ul>
-            <li>전문가들의 꿀팁
-                <ul>이럴 때 어떻게 하나요?
-                    <ul>
-                        <li>우리 아이가 밥을 안 먹어요
-                            <br>바로 확인해보기
-                        </li>
-                        <li>예방접종은 꼭 맞아야 하나요?
-                            <br>바로 확인해보기
-                        </li>
-                        <li>예병원은 처음이에요.
-                            <br>바로 확인해보기
-                        </li>
-                        <li>건강한 우리아이를 위한 체크리스트!
-                            <br>바로 확인해보기
-                        </li>
-                        <li>저만 이런가요?
-                            <br>바로 확인해보기
-                        </li>
-                    </ul>
-                </ul>
-            </li>
-        </ul>
-    </div>
-    </section>
-</body>
+    -->
+  </body>
 </html>
