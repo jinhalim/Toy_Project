@@ -1,52 +1,24 @@
-<html>
-  <head> //웹페이지의 상단
-    <title>고양이 사진첩!</title> //제목
-    <link rel="stylesheet" href="./src/styles/style.css">//외부 리소스와 연결 요소 + style.css파일과 하이퍼로 갈 수 있도록 함
-  </head>
-  <body> //웹페이지의 중앙
-    <h1>고양이 사진첩</h1>// 글자 크기 및 가로
-    <main class="App">// 웹페이지 구현의 메인 클래스
-      <nav class="Breadcrumb"> //네비게이션바 역할을 담당하는 클래스 요즘식
-        <div>root</div> //가로로 정렬하는 태그
-        <div>노란고양이</div>
-      </nav>
-      <div class="Nodes">
-        <div class="Node">
-          <img src="./assets/prev.png"> // img 파일을 불러옴
-        </div>
-        <div class="Node">
-          <img src="./assets/directory.png">
-          <div>2021/04</div>
-        </div>
-        <div class="Node">
-          <img src="./assets/file.png">
-          <div>하품하는 사진</div>
-        </div>
-      </div>
-    </main>
-    <!-- Loading Layer sample markup -->
-    <!--
-    <div class="Modal Loading">
-      <div class="content">
-        <img src="./assets/nyan-cat.gif">
-      </div>
-    </div>
-    -->
-    <!-- ImageViewer sample markup -->
-    <!--
-    <div class="Modal ImageViewer">
-      <div class="content">
-        <img src="./assets/sample_image.jpg">
-    </div>
-    -->
-  </body>
-  <header id="main_header">
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cat's library</title>
+    <link rel="stylesheet" href="./src/styles/main_style.css">
+</head>
+<body>
+    <header id="main_header">
     <div id="head">
-    <img src="pngegg.png" alt="footprint" width="50"/>
+        <div id = "footprint">
+         <!-- <img id = "main-icon" src="pngegg.png" alt="footprint" width="50"/> -->
+        </div>
+    
     <img src="choice.png" alt="choice" width="100"/>
     </div>
     </header>
     <section id="body">
+    
     <div id="반려동물 앨범">
         <ul>
             <li>반려동물 앨범
@@ -103,4 +75,5 @@
         </ul>
     </div>
     </section>
+</body>
 </html>
