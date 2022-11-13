@@ -9,26 +9,34 @@
 </head>
 <body>
     <header id="main_header">
-    <div id="head">
+        <div class="header-box-left"></div>
         <div id = "footprint">
-        <img id = "footprint" src="로고.png" alt="footprint" width="50"/> -->
+        <img id = "footprint_img" src="./assets/Icons/로고.png" alt="footprint"/>
         </div>
-        <div id="choice">
-        <img id="profil" src="프로필.png" alt="profil" width="100"/>
-        <img id="instagram" src="인스타그램.png" alt="instagram" width="100"/>
-        <img id="like" src="좋아요.png" alt="like" width="100"/>
+        <div id="choice" class="header-box-right">
+            <nav>
+                <ul>
+                    <li><img id="profile" src="./assets/Icons/프로필.png" alt="profile" /></li>
+                    <li><img id="instagram" src="./assets/Icons/인스타그램.png" alt="instagram" /></li>
+                    <li><img id="like" src="./assets/Icons/좋아요.png" alt="like"/></li>
+                </ul>
+            </nav>
         </div>
-    </div>
     </header>
     <section id="body">
     
     <div id="album">
         <ul>
-        <li>반려동물 앨범
+        <li>
+            <div class ='tag-box'>
+                <span class ="top_tag">#반려동물 앨범</span>
+                
+                <span>우리의 소중한 순간</span>
+            </div>
             <div id="moment">
-                <ul>우리의 소중한 순간
-                    <br><img id="cat1" src="assets/ats_img/marnhe-du-plooy-U6u_A5z6mME-unsplash.jpg.png" alt="cat1" width="100"/>
-                    <br><img id="cat2" src="assets/cats_img/zane-lee-VvTVkc_p-eg-unsplash.jpg" alt="cat2" width="100"/>
+                <ul>
+                    <br><img id="cat1" src="./assets/cats_img/marnhe-du-plooy-U6u_A5z6mME-unsplash.jpg" alt="cat1"/>
+                    <br><img id="cat2" src="./assets/cats_img/zane-lee-VvTVkc_p-eg-unsplash.jpg" alt="cat2"/>
                 </ul>
             </div>
         </li>
@@ -36,11 +44,16 @@
     </div>
     <div id="cat's history">
         <ul>
-        <li>냥이실록
+        <li>
+            <div class ='tag-box'>
+                <span class ="top_tag">#냥이실록</span>
+                <span>주인님 관찰 기록지</span>
+            </div>
+            
             <div id="observation log">
-                <ul>주인님 관찰 기록지
+                <ul>
                     <div id="no bite">
-                    <br><img id="cat3" src="assets/cats_img/michael-sum-LEpfefQf4rU-unsplash.jpg" alt="cat3" width="100"/>
+                    <br><img id="cat3" src="./assets/cats_img/michael-sum-LEpfefQf4rU-unsplash.jpg" alt="cat3"/>
                     <br>우리 고양이는 안물어요
                         <div id="say hello">
                         <br>고양이와 인사하기
@@ -54,9 +67,14 @@
     </div>
     <div id="tips">
         <ul>
-        <li>전문가들의 꿀팁
+        <li>
+            <div class ='tag-box'>
+                <span class ="top_tag">#전문가들의 꿀팁</span>
+                <span>이럴 때 어떻게 하나요?</span>
+            </div>
+            
         <div id="communite">
-            <ul>이럴 때 어떻게 하나요?
+            <ul>
                 <div id="example">
                     <li>우리 아이가 밥을 안 먹어요
                     <div id="comment">

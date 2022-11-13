@@ -1,10 +1,87 @@
-
+body{
+    margin: 0 0 0 0;
+}
+#body {
+    width: 100%;
+    height: 89.8%;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    gap: 20px;
+}
+#head {
+/* Layout Properties */
+margin-top: 0px;
+margin-left: 0px;
+width: 100%;
+height: 10.2%;
+/* UI Properties */
+opacity: 1;
+}
 #footprint {
-/* Layout Properties */ 
-top: 20px;
-left: 930px;
+    /* Layout Properties */
+padding-top: 5%;
+padding-bottom: 5%;
 width: 60px;
 height: 60px;
- /* UI Properties */
+/* UI Properties */
 opacity: 1;
+}
+#footprint_img {
+    width: 60px;
+    height: 60px;
+}
+#profile, #instagram, #like {
+    width: 32px;
+    height: 32px;
+    margin-right: 24px;
+}
+#cat1,#cat2 {
+    width: 558px;
+    height: 342px;
+}
+
+#cat3 {
+    width: 444px;
+    height: 704px;
+}
+
+
+
+header {
+    padding-left: 34px;
+    padding-right: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-box-left {
+      width: 176px;
+      height: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #choice ul > li {
+    display: inline-block;
+    margin-left: auto;
+  }
+  #choice ul > li:not(:last-of-type) {
+    margin-left: auto;
+  }
+  
+  section {
+    padding: 32px;
+  }
+  .top_tag {
+    
+    text-align: left;
+    color: #000000;
+    
+  }
+span {
+    display: block;
 }
